@@ -10,7 +10,7 @@ class App extends React.Component {
         <Nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
           <div className="container-fluid">
             <Link className="navbar-brand fs-4 ms-4" to="/">
-            <h5>React Page Application</h5>
+            <h5>React List</h5>
             </Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -21,7 +21,10 @@ class App extends React.Component {
                 <Link className="nav-link" to="/Lingkungan">Lingkungan Hidup</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/cart">Keranjang Belanja</Link>
+                <Link className="nav-link" to="/Cart">Produk</Link>
+                </li>
+                <li className="nav-item">
+                <Link className="nav-link" to="/cart2">Keranjang</Link>
                 </li>
               </ul>
             </div>
